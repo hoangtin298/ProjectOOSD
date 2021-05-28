@@ -7,7 +7,7 @@ Design OO food delivery app catering to use cases -
  
 2) User can select a restaurant 
 
-3) User sees a menu 
+3) User sees a table list 
 
 4) Restaurant can change the menu any time 
 
@@ -30,16 +30,15 @@ Soulution:
 
 Design Patterns involved in the design of this app:
 
-1) Builder Design Pattern (For adding food item and ordering)
+1) Builder Design Pattern (For adding restaurant and ordering)
 
 2) Interpreter Design Pattern (User can Search Different restaurant)
 
-3) Iterator Pattern (User Sees Menu)
+3) Iterator Pattern (User Sees Table List)
 
 4) Observer Pattern (Track an order in Real Time)
 
-
-5) (Command Design Pattern) Order and cancellation of Food
+5) (Command Design Pattern) Order and cancellation of Restaunrant
 
 6) (Strategy Design Pattern) Calculation of Tax based on the type of Restraunt
 
